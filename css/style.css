@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.control-show {
+  position: relative; /* أو absolute حسب التصميم */
+  top: 0;
+  width: 50%;
+  background: url(../images/desktop-image-hero-2.jpg);
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav-control {
+  padding-top: 50px;
+  display: flex;
+  color: #fff;
+  gap: 80px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+}
+.nav-control ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 50px;
+}
+.nav-control ul li a {
+  text-decoration: none;
+  color: #fff;
+}

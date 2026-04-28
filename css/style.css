@@ -2,11 +2,9 @@
   margin: 0;
   padding: 0;
 }
-.home-content{
-    display: flex;
-    justify-content: space-between;
-
-
+.home-content {
+  display: flex;
+  justify-content: space-between;
 }
 .control-show {
   position: relative; /* أو absolute حسب التصميم */
@@ -39,20 +37,28 @@
 }
 
 /* dash-contorl */
-.dash-contorl{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    margin-right: 40px;
+.dash-contorl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 40px;
 }
-.dash-contorl h2{
-    font-size: 45px;
-     font-family: "Montserrat", sans-serif;
+.dash-contorl h2 {
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-.dash-contorl p{
-    text-align: center;
+.dash-contorl p {
+  text-align: center;
+  color: #a2a2a2;
+}
+.shop-content {
+  font-size: 34px;
+}
+.shop-content:hover {
+  color: #a2a2a2;
+  cursor: pointer;
 }

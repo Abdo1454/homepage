@@ -89,3 +89,35 @@ gap: 60px;
   font-family: "Montserrat", sans-serif;
   /* font-weight: 100px; */
 }
+/* about */
+.about{
+  width: 40%;
+  padding-top: 50px;
+ 
+  gap: 20px;
+}
+/* .about h2{
+  padding-right: 30px;
+} */
+/* small-content */
+.small-content{
+  display: flex;
+
+}
+/* bg-small */
+.bg-small{
+  background: url(../images/image-about-dark.jpg);
+  width: 30%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* light-bg-small */
+.light-bg-small{
+    background: url(../images/image-about-light.jpg);
+  width: 30%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

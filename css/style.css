@@ -1,3 +1,14 @@
+:root {
+  --bg: url(../images/desktop-image-hero-2.jpg);
+}
+/*    style case-1  */
+.case-1 {
+  --bg: url(../images/desktop-image-hero-1.jpg);
+}
+/*    style case-2  */
+.case-2 {
+  --bg: url(../images/desktop-image-hero-3.jpg);
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +21,7 @@
   position: relative; /* أو absolute حسب التصميم */
   top: 0;
   width: 65%;
-  background: url(../images/desktop-image-hero-2.jpg);
+  background: var(--bg);
   background-size: cover;
   height: 500px;
   background-repeat: no-repeat;
@@ -36,7 +47,7 @@
   color: #fff;
 }
 /* dash-page */
-.dash-page{
+.dash-page {
   display: flex;
   flex-direction: column;
 }
@@ -81,10 +92,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background: #000;
-width: 150px;
-display: flex;
-justify-content: center;
-gap: 60px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 .slider button {
   background: #000;
@@ -97,7 +108,7 @@ gap: 60px;
   /* font-weight: 100px; */
 }
 /* about */
-.about{
+.about {
   width: 40%;
   padding-top: 50px;
   gap: 20px;
@@ -106,12 +117,11 @@ gap: 60px;
   padding-right: 30px;
 } */
 /* small-content */
-.small-content{
+.small-content {
   display: flex;
-
 }
 /* bg-small */
-.bg-small{
+.bg-small {
   background: url(../images/image-about-dark.jpg);
   width: 30%;
   height: 250px;
@@ -120,8 +130,8 @@ gap: 60px;
 }
 
 /* light-bg-small */
-.light-bg-small{
-    background: url(../images/image-about-light.jpg);
+.light-bg-small {
+  background: url(../images/image-about-light.jpg);
   width: 30%;
   height: 250px;
   background-repeat: no-repeat;

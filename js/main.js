@@ -33,3 +33,10 @@ function sliderChange() {
 }
 sliderChange();
 console.log(statue);
+// navbar
+let menuIcon = document.getElementById("menu-icon");
+let navLinks = document.getElementById("nav-links");
+
+menuIcon.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});

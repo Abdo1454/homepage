@@ -28,24 +28,43 @@
   background-position: center;
 }
 .nav-control {
-  padding-top: 50px;
   display: flex;
-  color: #fff;
-  gap: 80px;
   justify-content: flex-start;
+  gap: 200px;
   align-items: center;
-  margin-left: 40px;
+  padding: 15px;
 }
+.nav-control h1{
+  color: #fff;
+}
+/* اللينكات */
 .nav-control ul {
   display: flex;
+  /* justify-content: center; */
   list-style: none;
-  justify-content: center;
-  gap: 50px;
 }
+
 .nav-control ul li a {
   text-decoration: none;
+  margin-left: 50px;
+  font-size: 16px;
   color: #fff;
 }
+
+/* أيقونة الـ 3 شرط */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  margin: 5px 0;
+}
+
 /* dash-page */
 .dash-page {
   display: flex;
@@ -142,6 +161,9 @@
     flex-direction: column;
     width: 100%;
   }
+  .nav-control ul{
+    gap: 20px;
+  }
   .control-show {
     width: 100%;
   }
@@ -157,5 +179,27 @@
   }
   .about{
     width: 100%;
+  }
+    .menu-icon {
+    display: block;
+  }
+
+  .nav-control ul {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-control ul li {
+    margin: 15px 0;
+  }
+
+  .nav-control ul.active {
+    display: flex;
   }
 }

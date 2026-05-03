@@ -104,9 +104,10 @@
 .slider {
   position: relative;
   width: 100%;
+  transform: translateZ(100px);
   /* height: 600px; */
   overflow: hidden;
-  transform: translateX(-65px);
+  transform: translateX(-62px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,5 +202,20 @@
 
   .nav-control ul.active {
     display: flex;
+  }
+  .slider{
+      position: relative;
+  width: 100%;
+  transform: translateZ(100px);
+  transform: translateY(-570px)  translateX(280px);
+  /* text-align: right; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: #000;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
   }
 }

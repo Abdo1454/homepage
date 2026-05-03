@@ -20,6 +20,7 @@ arrowRight.addEventListener("click", () => {
   }
 console.log(statue);
 sliderChange();
+sliderContentChange();
 
 });
 function sliderChange() {
@@ -40,3 +41,14 @@ let navLinks = document.getElementById("nav-links");
 menuIcon.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
+let contentImage = document.getElementById("content-image");
+function sliderContentChange() {
+  if (statue == 1) {
+    contentImage.innerHTML = "Discover innovative <br /> Ways to decorate";
+  } else if (statue == 2) {
+    contentImage.innerHTML = "We are available all <br /> across the globe";
+  } else if (statue == 3) {
+    contentImage.innerHTML = "Discover innovative <br /> Ways to decorate";
+  }
+}
+sliderContentChange();

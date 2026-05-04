@@ -1,16 +1,16 @@
 :root {
   --bg: url(../images/desktop-image-hero-2.jpg);
-  --mv:-64px
+  --mv: -64px;
 }
 /*    style case-1  */
 .case-1 {
   --bg: url(../images/desktop-image-hero-1.jpg);
-  --mv:-52px;
+  --mv: -52px;
 }
 /*    style case-2  */
 .case-2 {
   --bg: url(../images/desktop-image-hero-3.jpg);
-  --mv:-52px;
+  --mv: -52px;
 }
 
 * {
@@ -38,7 +38,7 @@
   align-items: center;
   padding: 15px;
 }
-.nav-control h1{
+.nav-control h1 {
   color: #fff;
 }
 /* اللينكات */
@@ -90,8 +90,8 @@
   font-size: 45px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
 }
 .dash-contorl p {
   text-align: center;
@@ -162,31 +162,37 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (max-width:765px) {
-  .home-content{
+@media (max-width: 765px) {
+  .home-content {
     flex-direction: column;
     width: 100%;
   }
-  .nav-control ul{
+  .nav-control ul {
     gap: 20px;
   }
   .control-show {
     width: 100%;
   }
-  .small-content{
+  #content-image {
+    text-align: center;
+    font-size: 35px;
+  }
+  .small-content {
     flex-direction: column;
+    font-size: 12px;
     width: 100%;
   }
-  .bg-small{
+  .bg-small {
     width: 100%;
   }
-  .light-bg-small{
+  .light-bg-small {
     width: 100%;
   }
-  .about{
+  .about {
     width: 100%;
+    text-align: center;
   }
-    .menu-icon {
+  .menu-icon {
     display: block;
   }
 
@@ -208,19 +214,19 @@
   .nav-control ul.active {
     display: flex;
   }
-  .slider{
-      position: relative;
-  width: 100%;
-  transform: translateZ(100px);
-  transform: translateY(-570px)  translateX(280px);
-  /* text-align: right; */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background: #000;
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  gap: 60px;
+  .slider {
+    position: relative;
+    width: 100%;
+    transform: translateZ(100px);
+    transform: translateY(-490px) translateX(280px);
+    /* text-align: right; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #000;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
   }
 }

@@ -1,14 +1,18 @@
 :root {
   --bg: url(../images/desktop-image-hero-2.jpg);
+  --mv:-64px
 }
 /*    style case-1  */
 .case-1 {
   --bg: url(../images/desktop-image-hero-1.jpg);
+  --mv:-52px;
 }
 /*    style case-2  */
 .case-2 {
   --bg: url(../images/desktop-image-hero-3.jpg);
+  --mv:-52px;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -107,7 +111,7 @@
   transform: translateZ(100px);
   /* height: 600px; */
   overflow: hidden;
-  transform: translateX(-62px);
+  transform: translateX(var(--mv));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,6 +121,7 @@
   justify-content: center;
   gap: 60px;
 }
+
 .slider button {
   background: #000;
   border: none;

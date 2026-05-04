@@ -169,7 +169,10 @@
   }
   .nav-control ul {
     gap: 20px;
+    order: 1;
   }
+    .nav-control h1 {
+    order: 2; }
   .control-show {
     width: 100%;
   }
